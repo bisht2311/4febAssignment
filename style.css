@@ -1,0 +1,46 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height:90vh;
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    column-gap:0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 3000px;
+    color:rgb(57, 57, 78)
+}
+p{
+    font-size: 10px;
+}
+button{
+    background-color: blue;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border:1px solid blue;
+    border-radius: 10%;
+}
